@@ -1,0 +1,240 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2);
+  z-index: 3;
+  opacity: 1;
+  transition: opacity $time-duration $timing-function;
+}
+  
+.backdrop.is-hidden {
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity $time-duration $timing-function, visibility $time-duration $timing-function;
+}
+  
+.backdrop.is-hidden .modal {
+  transform: translate(-50%, -50%) scale(0.1);
+  transition: transform $time-duration $timing-function; 
+}
+  
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1);
+  width: 528px;
+  height: 581px;
+  background: $main-light;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  overflow-y: auto;
+  transition: transform $time-duration $timing-function;
+}
+  
+.modal__close-button {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  padding: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  fill: #000000;
+  outline: none;
+  transition: fill $time-duration $timing-function;
+}
+  
+.modal__close-block {
+  & :hover {
+    fill: $text-accent;
+    cursor: pointer;
+    transition: fill $time-duration $timing-function;
+  }
+
+  & :focus {
+    fill: $text-accent;
+    cursor: pointer;
+    transition: fill $time-duration $timing-function;
+  }
+}
+  
+.signup-form {
+  width: 448px;
+  margin: 40px auto;
+}
+  
+.signup-form__list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+  
+.signup-form__title {
+  display: block;
+  text-align: center;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.03em;
+  margin-bottom: 12px;
+}
+  
+.signup-form__item {
+  margin-bottom: 10px;
+  width: 100%;
+
+  & :hover {
+    cursor: pointer;
+    border-color: $text-accent;
+    outline: none;
+    transition: border-color $time-duration $timing-function;
+
+    .signup-form__icon {
+      fill: $text-accent;
+      transition: fill $time-duration $timing-function;
+    } 
+  } 
+ 
+  & :focus {
+    cursor: pointer;
+    border-color: $text-accent;
+    outline: none;
+    transition: border-color $time-duration $timing-function;
+
+    .signup-form__icon {
+      fill: $text-accent;
+      transition: fill $time-duration $timing-function;
+    }
+  } 
+}
+
+// .signup-form__item :hover > .signup-form__icon {
+// fill: $text-accent;
+// transition: fill $time-duration $timing-function;
+// } 
+
+// .signup-form__item :focus > .signup-form__icon {
+// fill: $text-accent;
+// transition: fill $time-duration $timing-function;
+// }
+
+.signup__comment {
+  margin-bottom: 20px;
+  padding: 0;
+}
+  
+.signup-form__agreement {
+  display: block;
+  margin-bottom: 30px; 
+}
+  
+.signup-form__checkbox--default {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+  
+.signup-form__checkbox--default:checked + .signup-form__checkbox-icon {
+  border: none;
+  border-radius: 2px;
+  background-color: $text-accent;
+  fill: $text-accent;
+}
+  
+.signup-form__checkbox-icon {
+  margin-right: 7px; 
+  border: 2px solid $text-main-dark;
+  border-radius: 2px; 
+  background-color: $main-light;
+  fill: $main-light;
+}
+  
+.signup-form__label {
+  margin-bottom: 4px;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.01em;
+  color: $text-sub;
+}
+  
+.signup-form__agreement-label {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0; 
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+  
+.signup-form__agreement-text {
+  margin: 0;
+  padding: 0;
+}
+  
+.signup-form__agreement-link {
+  color: $text-accent;
+  text-decoration: underline;
+}
+  
+.signup-form__input {
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  width: 100%;
+  height: 40px;
+  padding-left: 42px;
+  transition: border-color $time-duration $timing-function;
+}
+  
+.signup-form__input.comment-input {
+  height: 120px;
+  padding: 12px 16px;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.01em;
+}
+
+.signup-form__block {
+  position: relative;
+}
+  
+.signup-form__icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 12px;
+  fill: $text-main-dark;
+  transition: fill $time-duration $timing-function;
+}
+  
+.signup-form__item-button {
+  padding: 0;
+  margin: 0;
+}
+  
+.signup-form__button {
+  width: 200px;
+  height: 50px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+  color: $main-light;
+  background: $signup-form-button;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border-color: $text-accent;
+  margin: 0;
+  padding: 0;
+}

@@ -1,0 +1,35 @@
+.scope {
+  padding-bottom: 94px;
+}
+  
+.scope__list {
+  display: flex;
+}
+  
+.scope__list  :last-child {
+  margin-right: 0;
+}  
+  
+.scope__item {
+  margin-right: 30px;
+}
+  
+.scope__thumb {
+  position: relative;
+  width: 370px;  
+}
+  
+.scope__name {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  padding: 27px  0;  
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: $main-light;
+  background: rgba(47,  48,  58,  0.8);
+}

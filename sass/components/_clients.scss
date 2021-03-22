@@ -1,0 +1,123 @@
+/***********CLIENTS*****************/
+
+.clients {
+
+  @media screen and (max-width: 767px) {
+    padding: 60px 0;
+  }
+
+  @media screen and (min-width: 1200px) {
+    padding: 94px  0;
+  }
+}
+  
+.clients__list {
+  
+  &  :hover {
+    fill: $text-accent;
+    border-color: $text-accent;  
+    transition: border-color  $time-duration  $timing-function,  fill  $time-duration  $timing-function;
+  }
+  
+  &  :focus {
+    fill: $text-accent;
+    border-color: $text-accent;  
+    outline: none;
+    transition: border-color  $time-duration  $timing-function,  fill  $time-duration  $timing-function;
+  }
+
+  @media screen and (max-width: 479px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: calc(-1 * #{$card-set-gap});
+    margin-left: calc(-1 * #{$card-set-gap});
+  }
+
+  @media screen and (min-width: 480px) {
+    
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * #{$card-set-gap});
+    margin-left: calc(-1 * #{$card-set-gap});
+  }
+
+  @media screen and (min-width: 768px) { 
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * #{$card-set-gap});
+    margin-left: calc(-1 * #{$card-set-gap});
+  }  
+
+  @media screen and (min-width: 1200px) {
+    
+  }  
+}
+  
+.clients__list  :not(:first-child) {
+  @media screen and (min-width: 1200px) {
+    margin-left: 30px;
+  } 
+}
+  
+.clients__item {
+  color: $icon;
+  fill: $icon;
+
+  @media screen and (max-width: 479px) {
+    width: calc(100% - #{$card-set-gap});
+    margin-top: $card-set-gap;
+    margin-left: $card-set-gap;
+    flex-basis: calc(100% - #{$card-set-gap});
+  }
+
+  @media screen and (min-width: 480px) and (max-width: 767px){
+    width: 210px;
+    margin-top: $card-set-gap;
+    margin-left: $card-set-gap;
+    flex-basis: calc(100% / 2 - #{$card-set-gap});
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    width: 226px;
+    margin-top: $card-set-gap;
+    margin-left: $card-set-gap;
+    flex-basis: calc(100% / 3 - #{$card-set-gap});
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 170px;  
+  }
+
+}
+  
+.clients__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90px;
+  fill: currentColor;
+  color: currentColor;
+  border: 1px  solid  currentColor;
+  box-sizing: border-box;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: border-color  $time-duration  $timing-function,  fill  $time-duration  $timing-function;
+  
+  &:visited {
+    fill: currentColor;  
+    color: currentColor;
+  }
+
+  @media screen and (min-width: 480px) {
+    width: 210px;
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 226px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 170px;
+  }  
+}

@@ -1,0 +1,59 @@
+/*********** HEADER ************/ 
+  
+.page-head {
+  position: sticky;
+  top: -1px;
+  z-index: 2; 
+  background-color: $main-light; 
+  color: $text-main-dark;
+  padding: 0;
+  border-bottom: 1px solid $header-border;
+}
+
+.head-container {
+  display: flex;
+  align-items: center;
+}
+  
+.contacts {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+   
+  // &__item :not(:last-child) {
+  //   margin-right: 30px;
+  // }
+
+  &__icon {
+    margin-left: 30px;
+    margin-right: 10px;
+    fill: currentColor;
+  }
+  
+  &__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    color: $text-sub;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    outline: none;
+    transition: color $time-duration $timing-function;
+    
+    &:visited {
+      color: $text-sub;
+    }
+    
+    &:hover {
+      color: $text-accent;
+      transition: color $time-duration $timing-function;
+    }
+  
+    &:focus {
+      color: $text-accent;
+      transition: color $time-duration $timing-function;
+    } 
+  } 
+}

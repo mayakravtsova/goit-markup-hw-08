@@ -1,0 +1,51 @@
+/***********CLIENTS*****************/
+
+.clients {
+  padding: 94px  0;
+}
+  
+.clients__list {
+  display: flex;
+  
+  &  :hover {
+    fill: $text-accent;
+    border-color: $text-accent;  
+    transition: border-color  $time-duration  $timing-function,  fill  $time-duration  $timing-function;
+  }
+  
+  &  :focus {
+    fill: $text-accent;
+    border-color: $text-accent;  
+    outline: none;
+    transition: border-color  $time-duration  $timing-function,  fill  $time-duration  $timing-function;
+  }
+}
+  
+.clients__list  :not(:first-child) {
+  margin-left: 30px;
+}
+  
+.clients__item {
+  color: $icon;
+  fill: $icon;
+}
+  
+.clients__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 90px;
+  fill: currentColor;
+  color: currentColor;
+  border: 1px  solid  currentColor;
+  box-sizing: border-box;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: border-color  $time-duration  $timing-function,  fill  $time-duration  $timing-function;
+  
+  &:visited {
+    fill: currentColor;  
+    color: currentColor;
+  }
+}
