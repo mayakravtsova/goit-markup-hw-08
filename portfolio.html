@@ -18,15 +18,15 @@
   <body>
     <header class="page-head"> 
       <div class="container head-container">  
-      <nav class="nav">
-        <a class="logo" href="./index.html"><span class="logo__accent">Web</span>Studio</a>
-        <ul class="nav__list">
-          <li class="nav__item"><a href="./index.html" class="nav__link">Студия</a></li>
-          <li class="nav__item"><a href="./portfolio.html" class="nav__current-link">Портфолио</a></li>
-          <li class="nav__item"><a href="#" class="nav__link">Контакты</a></li>
-        </ul>   
-      </nav> 
-      <ul class="contacts">   
+        <nav class="nav">
+          <a class="logo" href="./index.html"><span class="logo__accent">Web</span>Studio</a>
+          <ul class="nav__list">
+            <li class="nav__item"><a href="./index.html" class="nav__current-link">Студия</a></li>
+            <li class="nav__item"><a href="./portfolio.html" class="nav__link">Портфолио</a></li>
+             <li class="nav__item"><a href="#" class="nav__link">Контакты</a></li>
+           </ul>   
+        </nav> 
+       <ul class="contacts">   
         <li class="contacts__item">
           <a class="contacts__link" href="mailto:info@devstudio.com">
             <svg class="contacts__icon" width="16px" height="12px">
@@ -43,24 +43,29 @@
             <p>+38 096 111 11 11</p>
         </a> 
         </li>
-      </ul>
+       </ul>
+        <button class="nav__button">
+           <svg class="nav__icon" width="24px" height="16px">
+            <use href="./images/icons.svg#menu"></use>
+          </svg>
+        </button>
       </div>
     </header>
     <main>
       <section class="project">
         <div class="container">
         <ul class="filters">
-          <li><button class="filters__button">Все</button></li>
-          <li><button class="filters__button">Веб-сайты</button></li>
-          <li><button class="filters__button">Приложения</button></li>
-          <li><button class="filters__button">Дизайн</button></li>
-          <li><button class="filters__button">Маркетинг</button></li>
+          <li class="filters-item"><button class="filters__button">Все</button></li>
+          <li class="filters-item"><button class="filters__button">Веб-сайты</button></li>
+          <li class="filters-item"><button class="filters__button">Приложения</button></li>
+          <li class="filters-item"><button class="filters__button">Дизайн</button></li>
+          <li class="filters-item"><button class="filters__button">Маркетинг</button></li>
         </ul>
         <ul class="project__list">
           <li class="project__item">
             <a href="#" class="project__link">
-              <div class="project__image">
-                <img src="./images/portfolio_1.jpg" alt="technokriak-website">
+              <div class="project__image-box">
+                <img class="project__image" src="./images/portfolio_1.jpg" alt="technokriak-website">
                 <div class="project__description-hover">
                   <p>Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
                 </div>
@@ -73,8 +78,8 @@
           </li>
           <li class="project__item">
             <a href="#" class="project__link">
-              <div class="project__image">
-                <img src="./images/portfolio_2.jpg" alt="new-jrlean-vs-golden-star-poster-design">
+              <div class="project__image-box">
+                <img class="project__image" src="./images/portfolio_2.jpg" alt="new-jrlean-vs-golden-star-poster-design">
                 <div class="project__description-hover">
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At fuga omnis cum, repellat ipsa optio suscipit animi nostrum reprehenderit atque?</p>
                 </div>
@@ -87,8 +92,8 @@
           </li>
           <li class="project__item">
             <a href="#" class="project__link">
-              <div class="project__image">
-                <img src="./images/portfolio_3.jpg" alt="seafood-restaurant-app">
+              <div class="project__image-box">
+                <img class="project__image" src="./images/portfolio_3.jpg" alt="seafood-restaurant-app">
                 <div class="project__description-hover">
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At fuga omnis cum, repellat ipsa optio suscipit animi nostrum reprehenderit atque?</p>
                 </div>
@@ -101,8 +106,8 @@
           </li>
           <li class="project__item">
             <a href="#" class="project__link">
-              <div class="project__image">
-                <img src="./images/portfolio_4.jpg" alt="prime-project-marketing">
+              <div class="project__image-box">
+                <img class="project__image" src="./images/portfolio_4.jpg" alt="prime-project-marketing">
                 <div class="project__description-hover">
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At fuga omnis cum, repellat ipsa optio suscipit animi nostrum reprehenderit atque?</p>
                 </div>
@@ -115,8 +120,8 @@
           </li>
           <li class="project__item">
             <a href="#" class="project__link">
-              <div class="project__image">
-                <img src="./images/portfolio_5.jpg" alt="boxes-project-app">
+              <div class="project__image-box">
+                <img class="project__image" src="./images/portfolio_5.jpg" alt="boxes-project-app">
                 <div class="project__description-hover">
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At fuga omnis cum, repellat ipsa optio suscipit animi nostrum reprehenderit atque?</p>
                 </div>
@@ -129,8 +134,8 @@
           </li>
           <li class="project__item">
             <a href="#" class="project__link">
-              <div class="project__image">
-                <img src="./images/portfolio_6.jpg" alt="inspiration-has-no-borders-website">
+              <div class="project__image-box">
+                <img class="project__image" src="./images/portfolio_6.jpg" alt="inspiration-has-no-borders-website">
                 <div class="project__description-hover">
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At fuga omnis cum, repellat ipsa optio suscipit animi nostrum reprehenderit atque?</p>
                 </div>
@@ -143,8 +148,8 @@
           </li>
           <li class="project__item">
             <a href="#" class="project__link">
-              <div class="project__image">
-                <img src="./images/portfolio_7.jpg" alt="limited-edition-design">
+              <div class="project__image-box">
+                <img class="project__image" src="./images/portfolio_7.jpg" alt="limited-edition-design">
                 <div class="project__description-hover">
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At fuga omnis cum, repellat ipsa optio suscipit animi nostrum reprehenderit atque?</p>
                 </div>
@@ -157,8 +162,8 @@
           </li>
           <li class="project__item">
             <a href="#" class="project__link">
-              <div class="project__image">
-                <img src="./images/portfolio_8.jpg" alt="lab-project-marketing">
+              <div class="project__image-box">
+                <img class="project__image" src="./images/portfolio_8.jpg" alt="lab-project-marketing">
                 <div class="project__description-hover">
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At fuga omnis cum, repellat ipsa optio suscipit animi nostrum reprehenderit atque?</p>
                 </div>
@@ -171,8 +176,8 @@
           </li>
           <li class="project__item">
             <a href="#" class="project__link">
-              <div class="project__image">
-                <img src="./images/portfolio_9.jpg" alt="growing-business-app">
+              <div class="project__image-box">
+                <img class="project__image" src="./images/portfolio_9.jpg" alt="growing-business-app">
                 <div class="project__description-hover">
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At fuga omnis cum, repellat ipsa optio suscipit animi nostrum reprehenderit atque?</p>
                 </div>
