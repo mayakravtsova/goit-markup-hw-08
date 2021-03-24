@@ -231,9 +231,17 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 0; 
-  font-size: 14px;
-  line-height: 24px;
   letter-spacing: 0.03em;
+
+  @media screen and (max-width: 1199px) {
+    font-size: 12px;
+    line-height: 14px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    font-size: 14px;
+    line-height: 24px; 
+  } 
 }
   
 .signup-form__agreement-text {

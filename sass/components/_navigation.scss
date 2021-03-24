@@ -92,8 +92,10 @@
   transition: color $time-duration $timing-function;
 
   & :hover,
-  & :focus {
+  &:focus {
     fill: $text-accent;
+    outline: none;
+    // border: none;
     transition: color $time-duration $timing-function;
   }
 }

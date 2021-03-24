@@ -20,13 +20,19 @@
     margin-left: calc(-1 * #{$card-set-gap});
   }
 
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 768px) {
     display: flex;
     flex-wrap: wrap;
-    
-  margin-top: calc(-1 * #{$card-set-gap});
-  margin-left: calc(-1 * #{$card-set-gap});
-  }  
+    margin-top: calc(-1 * #{$card-set-gap});
+    margin-left: calc(-1 * #{$card-set-gap});
+  }
+
+  // @media screen and (min-width: 1200px) {
+  //   display: flex;
+  //   flex-wrap: wrap;
+  //   margin-top: calc(-1 * #{$card-set-gap});
+  //   margin-left: calc(-1 * #{$card-set-gap});
+  // }  
 }
   
 .project__item {
@@ -41,7 +47,7 @@
   }
 
   @media screen and (min-width: 768px) and (max-width: 1199px) {
-    // flex-basis: calc(100% / 2 - #{$card-set-gap});
+    flex-basis: calc(100% / 2 - #{$card-set-gap});
     margin-top: $card-set-gap;
     margin-left: $card-set-gap;
     width: 354px;
