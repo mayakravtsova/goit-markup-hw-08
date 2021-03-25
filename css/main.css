@@ -389,6 +389,16 @@ textarea {
   width: 100vw;
   height: 100vh;
   padding: 48px 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   background-color: #FFFFFF;
   z-index: 3;
   -webkit-transform: translateX(100%);
@@ -438,9 +448,12 @@ textarea {
   font-size: 40px;
   line-height: 47px;
   letter-spacing: 0.02em;
-  color: #212121;
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.menu__nav-link {
+  color: #212121;
 }
 
 .menu__nav-link:visited {
@@ -457,10 +470,6 @@ textarea {
   color: #2196F3;
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.menu__contact-box {
-  margin-top: auto;
 }
 
 .menu__contact-list {
@@ -533,6 +542,9 @@ textarea {
   font-size: 18px;
   line-height: 22px;
   letter-spacing: 0.02em;
+}
+
+.menu__social-link {
   color: #2196F3;
 }
 

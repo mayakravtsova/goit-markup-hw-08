@@ -5,6 +5,9 @@
   width: 100vw;
   height: 100vh;
   padding: 48px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   background-color: $main-light;
   z-index: 3;
   transform: translateX(100%);
@@ -48,11 +51,12 @@
   font-size: 40px;
   line-height: 47px;
   letter-spacing: 0.02em;
-  color: $text-main-dark;
   transition: color $time-duration $timing-function; 
 } 
 
 .menu__nav-link {
+  color: $text-main-dark;
+
   &:visited {
     color: $text-main-dark;
   }
@@ -66,12 +70,6 @@
     color: $text-accent;
     transition: color $time-duration $timing-function;
   }  
-}
-
-.menu__contact-box {
-//   align-items: flex-end; 
-
-margin-top: auto; 
 }
 
 .menu__contact-list {
@@ -141,10 +139,11 @@ margin-top: auto;
   font-size: 18px;
   line-height: 22px;
   letter-spacing: 0.02em;
-  color: $text-accent;
 }
 
 .menu__social-link {
+  color: $text-accent;
+
   &:visited {
     color: $text-accent;
   }
