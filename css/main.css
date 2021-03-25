@@ -366,9 +366,19 @@ textarea {
   color: #2196F3;
 }
 
+@media screen and (min-width: 768px) {
+  .logo {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+  }
+}
+
 @media screen and (min-width: 1200px) {
   .logo {
-    margin-right: 93px;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
   }
 }
 
@@ -381,6 +391,18 @@ textarea {
           align-items: baseline;
 }
 
+@media screen and (min-width: 768px) {
+  .nav__logo {
+    margin-right: 88px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .nav__logo {
+    margin-right: 93px;
+  }
+}
+
 .nav__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -390,7 +412,7 @@ textarea {
           align-items: center;
 }
 
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 767px) {
   .nav__list {
     display: none;
   }
@@ -468,7 +490,7 @@ textarea {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 768px) {
   .nav__button {
     display: none;
   }
@@ -516,9 +538,17 @@ textarea {
           align-items: baseline;
 }
 
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 767px) {
   .contacts {
     display: none;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .contacts {
+    display: block;
+    text-align: left;
+    margin: 21px 0 auto auto;
   }
 }
 
@@ -532,6 +562,14 @@ textarea {
             align-items: center;
     margin-left: auto;
   }
+}
+
+.contacts__item {
+  margin-bottom: 10px;
+}
+
+.contacts__item :not(:last-child) {
+  margin-bottom: 0;
 }
 
 .contacts__icon {
@@ -558,6 +596,15 @@ textarea {
   outline: none;
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@media screen and (min-width: 767px) and (max-width: 1199px) {
+  .contacts__link {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    white-space: wrap;
+  }
 }
 
 .contacts__link:visited {

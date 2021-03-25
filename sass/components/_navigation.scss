@@ -3,11 +3,20 @@
   // justify-content: space-between;
   align-items: baseline;
 
+  &__logo {
+    @media screen and (min-width: 768px) {
+      margin-right: 88px;
+    }
+    @media screen and (min-width: 1200px) { 
+      margin-right: 93px;
+    }
+  }
+
   &__list {
     display: flex;
     align-items: center;
   
-    @media screen and (max-width: 1199px) {
+    @media screen and (max-width: 767px) {
       display: none;
     }
   }
@@ -70,18 +79,6 @@
 }
 
 .nav__button {
-  // display: block;
-  // justify-content: center;
-  // align-items: center;
-  // width: 40px;
-  // height: 40px;
-  // text-align: center;
-  // border: 1px solid blue;
-
-  @media screen and (min-width: 1200px) {
-    display: none;
-  }
-  
   border: none;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -91,6 +88,10 @@
   background-color: $main-light;
   transition: color $time-duration $timing-function;
 
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+  
   & :hover,
   &:focus {
     fill: $text-accent;

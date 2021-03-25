@@ -15,14 +15,20 @@
 
 .head-container {
   display: flex;
-  // align-items: center;
   align-items: baseline;
 }
   
 .contacts {
   
-  @media screen and (max-width: 1199px) {
+  @media screen and (max-width: 767px) {   
     display: none;
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    display: block;
+    text-align: left;
+    // margin-left: auto;
+    margin: 21px 0 auto auto;
   }
 
   @media screen and (min-width: 1200px) {
@@ -30,6 +36,15 @@
     align-items: center;
     margin-left: auto;
   }
+  
+  &__item {
+    margin-bottom: 10px;
+  }
+
+  &__item :not(:last-child) {
+    margin-bottom: 0;
+  }
+  
 
   &__icon {
     margin-left: 30px;
@@ -48,7 +63,13 @@
     letter-spacing: 0.02em;
     outline: none;
     transition: color $time-duration $timing-function;
-    
+
+    @media screen and (min-width: 767px) and (max-width: 1199px) {
+      justify-content: flex-start;
+      // padding-bottom: 10px;
+      white-space: wrap;
+    }
+
     &:visited {
       color: $text-sub;
     }
@@ -64,3 +85,17 @@
     } 
   } 
 }
+
+// .icon-email {
+//   @media screen and (min-width: 767px) and (max-width: 1199px) {
+//     width: 6px;
+//     height: 4px;
+//   }
+// }
+
+// .icon-phone {
+//   @media screen and (min-width: 767px) and (max-width: 1199px) {
+//     width: 8px;
+//     height: 10px;
+//   }
+// }
