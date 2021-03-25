@@ -64,7 +64,6 @@
 
     @media screen and (min-width: 768px) and (max-width: 1199px) {
       justify-content: flex-start;
-      // padding-bottom: 10px;
       white-space: wrap;
     }
 
@@ -83,17 +82,3 @@
     } 
   } 
 }
-
-// .icon-email {
-//   @media screen and (min-width: 767px) and (max-width: 1199px) {
-//     width: 6px;
-//     height: 4px;
-//   }
-// }
-
-// .icon-phone {
-//   @media screen and (min-width: 767px) and (max-width: 1199px) {
-//     width: 8px;
-//     height: 10px;
-//   }
-// }

@@ -1,11 +1,8 @@
 .filters {
-  
-  @media screen and (min-width: 480px) and (max-width: 767px) {
-    display: inline-block;
-    justify-content: left;
-    text-align: left;
-    margin: 0 0 40px 0;
-  }
+  display: inline-block;
+  justify-content: left;
+  text-align: left;
+  margin: 0 0 25px 0;
   
   @media screen and (min-width: 768px) and (max-width: 1199px) {
     display: flex;
@@ -30,9 +27,6 @@
 .filters-item {
   display: inline;
 
-  // @media screen and (max-width: 767px) {
-  //   display: inline;
-  // }
   @media screen and (min-width: 768px) and (max-width: 1199) {
     display: flex;
     align-items: center;
@@ -46,6 +40,8 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
+  
+  margin-bottom: 15px;
   text-align: center; 
   letter-spacing: 0.03em;
   background-color: $background-light;

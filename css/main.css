@@ -403,10 +403,10 @@ textarea {
   z-index: 3;
   -webkit-transform: translateX(100%);
           transform: translateX(100%);
-  -webkit-transition: -webkit-transform 3250ms ease-in-out;
-  transition: -webkit-transform 3250ms ease-in-out;
-  transition: transform 3250ms ease-in-out;
-  transition: transform 3250ms ease-in-out, -webkit-transform 3250ms ease-in-out;
+  -webkit-transition: -webkit-transform 250ms ease-in-out;
+  transition: -webkit-transform 250ms ease-in-out;
+  transition: transform 250ms ease-in-out;
+  transition: transform 250ms ease-in-out, -webkit-transform 250ms ease-in-out;
 }
 
 .menu-container.is-open {
@@ -427,15 +427,15 @@ textarea {
 .menu__button :hover {
   fill: #2196F3;
   cursor: pointer;
-  -webkit-transition: fill 3250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: fill 3250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .menu__button :focus {
   fill: #2196F3;
   cursor: pointer;
-  -webkit-transition: fill 3250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: fill 3250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .menu__nav-list :last-child {
@@ -448,8 +448,8 @@ textarea {
   font-size: 40px;
   line-height: 47px;
   letter-spacing: 0.02em;
-  -webkit-transition: color 3250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: color 3250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .menu__nav-link {
@@ -462,14 +462,14 @@ textarea {
 
 .menu__nav-link:hover {
   color: #2196F3;
-  -webkit-transition: color 3250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: color 3250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .menu__nav-link:focus {
   color: #2196F3;
-  -webkit-transition: color 3250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: color 3250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .menu__contact-list {
@@ -501,8 +501,8 @@ textarea {
 
 .menu__contact-link:hover {
   color: #2196F3;
-  -webkit-transition: color 3250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: color 3250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   font-weight: 500;
   font-size: 34px;
   line-height: 40px;
@@ -510,8 +510,8 @@ textarea {
 
 .menu__contact-link:focus {
   color: #2196F3;
-  -webkit-transition: color 3250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: color 3250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   font-weight: 500;
   font-size: 34px;
   line-height: 40px;
@@ -599,8 +599,8 @@ textarea {
   letter-spacing: 0.02em;
   outline: none;
   color: #212121;
-  -webkit-transition: color 3250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: color 3250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav__link:visited {
@@ -609,14 +609,14 @@ textarea {
 
 .nav__link:hover {
   color: #2196F3;
-  -webkit-transition: color 3250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: color 3250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav__link:focus {
   color: #2196F3;
-  -webkit-transition: color 3250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: color 3250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav__current-link {
@@ -628,8 +628,8 @@ textarea {
   letter-spacing: 0.02em;
   outline: none;
   color: #2196F3;
-  -webkit-transition: color 3250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: color 3250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav__current-link::after {
@@ -651,8 +651,8 @@ textarea {
   padding: 12px 8px;
   fill: #212121;
   background-color: #FFFFFF;
-  -webkit-transition: color 3250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: color 3250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 @media screen and (min-width: 768px) {
@@ -664,8 +664,8 @@ textarea {
 .nav__button :hover, .nav__button:focus {
   fill: #2196F3;
   outline: none;
-  -webkit-transition: color 3250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: color 3250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button {
@@ -757,8 +757,8 @@ textarea {
   line-height: 16px;
   letter-spacing: 0.02em;
   outline: none;
-  -webkit-transition: color 3250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: color 3250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
@@ -776,14 +776,14 @@ textarea {
 
 .contacts__link:hover {
   color: #2196F3;
-  -webkit-transition: color 3250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: color 3250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contacts__link:focus {
   color: #2196F3;
-  -webkit-transition: color 3250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: color 3250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /*********** FOOTER ************/
@@ -907,8 +907,8 @@ textarea {
   outline: none;
   line-height: 24px;
   letter-spacing: 0.03em;
-  -webkit-transition: color 3250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: color 3250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-contacts__link:visited {
@@ -917,14 +917,14 @@ textarea {
 
 .footer-contacts__link:hover {
   color: #2196F3;
-  -webkit-transition: color 3250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: color 3250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-contacts__link:focus {
   color: #2196F3;
-  -webkit-transition: color 3250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: color 3250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 @media screen and (max-width: 767px) {
@@ -963,19 +963,15 @@ textarea {
   background-color: #2196F3;
   border-radius: 50%;
   outline: none;
-  -webkit-transition: background-color 3250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: background-color 3250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-social__item .social-net__link :visited {
   fill: #FFFFFF;
 }
 
-.footer__signup-box {
-  width: 100%;
-}
-
-@media screen and (min-width: 768px) and (max-width: 1199px) {
+@media screen and (max-width: 1199px) {
   .footer__signup-box {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -987,6 +983,7 @@ textarea {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    width: 100%;
   }
 }
 
@@ -1094,15 +1091,13 @@ textarea {
   fill: currentColor;
 }
 
-@media screen and (min-width: 480px) and (max-width: 767px) {
-  .filters {
-    display: inline-block;
-    -webkit-box-pack: left;
-        -ms-flex-pack: left;
-            justify-content: left;
-    text-align: left;
-    margin: 0 0 40px 0;
-  }
+.filters {
+  display: inline-block;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  text-align: left;
+  margin: 0 0 25px 0;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
@@ -1160,14 +1155,15 @@ textarea {
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
+  margin-bottom: 15px;
   text-align: center;
   letter-spacing: 0.03em;
   background-color: #F5F4FA;
   padding: 6px 22px;
   border: 1px solid #F5F4FA;
   border-radius: 4px;
-  -webkit-transition: color 3250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 3250ms cubic-bezier(0.4, 0, 0.2, 1), border 3250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: color 3250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 3250ms cubic-bezier(0.4, 0, 0.2, 1), border 3250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .filters__button:focus {
@@ -1177,10 +1173,10 @@ textarea {
   -webkit-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
           box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
   border: 1px solid #2196F3;
-  -webkit-transition: color 3250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 3250ms cubic-bezier(0.4, 0, 0.2, 1), border 3250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 3250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: color 3250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 3250ms cubic-bezier(0.4, 0, 0.2, 1), border 3250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 3250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: color 3250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 3250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 3250ms cubic-bezier(0.4, 0, 0.2, 1), border 3250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: color 3250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 3250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 3250ms cubic-bezier(0.4, 0, 0.2, 1), border 3250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 3250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .filters__button:hover {
@@ -1190,10 +1186,10 @@ textarea {
   -webkit-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
           box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
   border: 1px solid #2196F3;
-  -webkit-transition: color 3250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 3250ms cubic-bezier(0.4, 0, 0.2, 1), border 3250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 3250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: color 3250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 3250ms cubic-bezier(0.4, 0, 0.2, 1), border 3250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 3250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: color 3250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 3250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 3250ms cubic-bezier(0.4, 0, 0.2, 1), border 3250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: color 3250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 3250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 3250ms cubic-bezier(0.4, 0, 0.2, 1), border 3250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 3250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 @media screen and (max-width: 1199px) {
@@ -1279,10 +1275,10 @@ textarea {
   opacity: 1;
   -webkit-transform: translatey(0);
           transform: translatey(0);
-  -webkit-transition: opacity 3250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 3250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: opacity 3250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 3250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: transform 3250ms cubic-bezier(0.4, 0, 0.2, 1), opacity 3250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: transform 3250ms cubic-bezier(0.4, 0, 0.2, 1), opacity 3250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 3250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .project__item:focus {
@@ -1296,10 +1292,10 @@ textarea {
   opacity: 1;
   -webkit-transform: translatey(0);
           transform: translatey(0);
-  -webkit-transition: opacity 3250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 3250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: opacity 3250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 3250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: transform 3250ms cubic-bezier(0.4, 0, 0.2, 1), opacity 3250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: transform 3250ms cubic-bezier(0.4, 0, 0.2, 1), opacity 3250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 3250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .project__link {
@@ -1342,10 +1338,10 @@ textarea {
   opacity: 0;
   -webkit-transform: translatey(100%);
           transform: translatey(100%);
-  -webkit-transition: opacity 3250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 3250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: opacity 3250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 3250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: transform 3250ms cubic-bezier(0.4, 0, 0.2, 1), opacity 3250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: transform 3250ms cubic-bezier(0.4, 0, 0.2, 1), opacity 3250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 3250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .project__content {
@@ -1451,10 +1447,8 @@ textarea {
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
-@media screen and (max-width: 1199px) {
-  .decision {
-    padding: 60px 0;
-  }
+.decision {
+  padding: 60px 0;
 }
 
 @media screen and (min-width: 1200px) {
@@ -1658,10 +1652,8 @@ textarea {
 }
 
 /***********CLIENTS*****************/
-@media screen and (max-width: 1199px) {
-  .clients {
-    padding: 60px 0;
-  }
+.clients {
+  padding: 60px 0;
 }
 
 @media screen and (min-width: 1200px) {
@@ -1673,16 +1665,16 @@ textarea {
 .clients__list :hover {
   fill: #2196F3;
   border-color: #2196F3;
-  -webkit-transition: border-color 3250ms cubic-bezier(0.4, 0, 0.2, 1), fill 3250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: border-color 3250ms cubic-bezier(0.4, 0, 0.2, 1), fill 3250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients__list :focus {
   fill: #2196F3;
   border-color: #2196F3;
   outline: none;
-  -webkit-transition: border-color 3250ms cubic-bezier(0.4, 0, 0.2, 1), fill 3250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: border-color 3250ms cubic-bezier(0.4, 0, 0.2, 1), fill 3250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 @media screen and (max-width: 479px) {
@@ -1787,8 +1779,8 @@ textarea {
           box-sizing: border-box;
   border-radius: 4px;
   cursor: pointer;
-  -webkit-transition: border-color 3250ms cubic-bezier(0.4, 0, 0.2, 1), fill 3250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: border-color 3250ms cubic-bezier(0.4, 0, 0.2, 1), fill 3250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients__link:visited {
@@ -1997,8 +1989,8 @@ textarea {
 
 .social-net__item {
   color: #AFB1B8;
-  -webkit-transition: color 3250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: color 3250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-net__item :visited {
@@ -2011,8 +2003,8 @@ textarea {
   fill: #FFFFFF;
   background-color: #2196F3;
   outline: none;
-  -webkit-transition: background-color 3250ms cubic-bezier(0.4, 0, 0.2, 1), fill 3250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: background-color 3250ms cubic-bezier(0.4, 0, 0.2, 1), fill 3250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-net__link {
@@ -2030,16 +2022,16 @@ textarea {
   fill: currentColor;
   color: currentColor;
   border-radius: 50%;
-  -webkit-transition: background-color 3250ms cubic-bezier(0.4, 0, 0.2, 1), fill 3250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: background-color 3250ms cubic-bezier(0.4, 0, 0.2, 1), fill 3250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-net__link :hover,
 .social-net__link :focus {
   border-radius: 0;
   background-color: #2196f3;
-  -webkit-transition: background-color 3250ms cubic-bezier(0.4, 0, 0.2, 1), fill 3250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: background-color 3250ms cubic-bezier(0.4, 0, 0.2, 1), fill 3250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-net__icon {
@@ -2055,25 +2047,25 @@ textarea {
   background: rgba(0, 0, 0, 0.2);
   z-index: 3;
   opacity: 1;
-  -webkit-transition: opacity 3250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: opacity 3250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .backdrop.is-hidden {
   visibility: hidden;
   opacity: 0;
   pointer-events: none;
-  -webkit-transition: opacity 3250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 3250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: opacity 3250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 3250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .backdrop.is-hidden .modal {
   -webkit-transform: translate(-50%, -50%) scale(0.1);
           transform: translate(-50%, -50%) scale(0.1);
-  -webkit-transition: -webkit-transform 3250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: -webkit-transform 3250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: transform 3250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: transform 3250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 3250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal {
@@ -2087,10 +2079,10 @@ textarea {
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   overflow-y: auto;
-  -webkit-transition: -webkit-transform 3250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: -webkit-transform 3250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: transform 3250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: transform 3250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 3250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 @media screen and (max-width: 479px) {
@@ -2132,22 +2124,22 @@ textarea {
   border: 1px solid rgba(0, 0, 0, 0.1);
   fill: #000000;
   outline: none;
-  -webkit-transition: fill 3250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: fill 3250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal__close-block :hover {
   fill: #2196F3;
   cursor: pointer;
-  -webkit-transition: fill 3250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: fill 3250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal__close-block :focus {
   fill: #2196F3;
   cursor: pointer;
-  -webkit-transition: fill 3250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: fill 3250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .signup-form {
@@ -2219,28 +2211,28 @@ textarea {
   cursor: pointer;
   border-color: #2196F3;
   outline: none;
-  -webkit-transition: border-color 3250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: border-color 3250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .signup-form__item :hover .signup-form__icon {
   fill: #2196F3;
-  -webkit-transition: fill 3250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: fill 3250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .signup-form__item :focus {
   cursor: pointer;
   border-color: #2196F3;
   outline: none;
-  -webkit-transition: border-color 3250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: border-color 3250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .signup-form__item :focus .signup-form__icon {
   fill: #2196F3;
-  -webkit-transition: fill 3250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: fill 3250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .signup__comment {
@@ -2341,8 +2333,8 @@ textarea {
   width: 100%;
   height: 40px;
   padding-left: 42px;
-  -webkit-transition: border-color 3250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: border-color 3250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .signup-form__input.comment-input {
@@ -2364,8 +2356,8 @@ textarea {
           transform: translateY(-50%);
   left: 12px;
   fill: #212121;
-  -webkit-transition: fill 3250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: fill 3250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .signup-form__item-button {
