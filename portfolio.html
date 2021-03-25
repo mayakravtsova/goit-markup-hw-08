@@ -19,17 +19,17 @@
     <header class="page-head"> 
       <div class="container head-container">  
         <nav class="nav">
-          <a class="logo" href="./index.html"><span class="logo__accent">Web</span>Studio</a>
+          <a class="logo nav__logo" href="./index.html"><span class="logo__accent">Web</span>Studio</a>
           <ul class="nav__list">
             <li class="nav__item"><a href="./index.html" class="nav__link">Студия</a></li>
             <li class="nav__item"><a href="./portfolio.html" class="nav__current-link">Портфолио</a></li>
-             <li class="nav__item"><a href="#" class="nav__link">Контакты</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">Контакты</a></li>
            </ul>   
         </nav> 
        <ul class="contacts">   
         <li class="contacts__item">
           <a class="contacts__link" href="mailto:info@devstudio.com">
-            <svg class="contacts__icon" width="16px" height="12px">
+            <svg class="contacts__icon icon__email" width="16px" height="12px">
               <use href="./images/icons.svg#mail"></use>
             </svg>
             <p>info@devstudio.com</p>
@@ -37,14 +37,14 @@
         </li>
         <li class="contacts__item">
           <a class="contacts__link" href="tel:+380961111111">
-            <svg class="contacts__icon" width="10px" height="16px">
+            <svg class="contacts__icon icon__phone" width="10px" height="16px">
               <use href="./images/icons.svg#smartphone"></use>
             </svg>
             <p>+38 096 111 11 11</p>
         </a> 
         </li>
        </ul>
-        <button class="nav__button">
+        <button class="nav__button menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
            <svg class="nav__icon" width="24px" height="16px">
             <use href="./images/icons.svg#menu"></use>
           </svg>

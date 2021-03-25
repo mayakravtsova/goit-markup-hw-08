@@ -11,7 +11,7 @@
   background-color: $main-light;
   z-index: 3;
   transform: translateX(100%);
-  transition: transform 250ms ease-in-out;
+  transition: transform $time-duration ease-in-out;
 }
 
 .menu-container.is-open {
@@ -117,19 +117,16 @@
 
 .menu__social-list {
   display: flex;
-  align-self: flex-end;
-//   align-items: flex-end;
-//   vertical-align: bottom;
+  flex-wrap: wrap;
 }
 
 .menu__social-list :first-child {
   padding-left: 0;
 }
 
-.menu__social-list :last-child {
-  border: none;
-  padding-right: 0;
-}
+// .menu__social-list :last-child {
+//   padding-right: 0;
+// }
 
 .menu__social-item {
   padding-left: 10px;
