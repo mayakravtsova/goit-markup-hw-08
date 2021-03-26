@@ -767,6 +767,8 @@ textarea {
         -ms-flex-pack: start;
             justify-content: flex-start;
     white-space: wrap;
+    font-size: 12px;
+    line-height: 14px;
   }
 }
 
