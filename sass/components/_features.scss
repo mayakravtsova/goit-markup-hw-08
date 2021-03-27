@@ -1,8 +1,5 @@
 .decision {
   padding: 60px 0;
-  // @media screen and (max-width: 1199px) {
-  //   padding: 60px 0;
-  // }
 
   @media screen and (min-width: 1200px) {
     padding: 94px 0;
@@ -16,7 +13,6 @@
 
 .decision__list {
   display: flex;
-  align-items: center;
 
   @media screen and (max-width: 767px) {
     flex-direction: column;
@@ -65,8 +61,7 @@
   }
 
   @media screen and (min-width: 768px) {
-    width: 354px;
-    
+    width: 354px;  
   }
 
   @media screen and (min-width: 1200px) {

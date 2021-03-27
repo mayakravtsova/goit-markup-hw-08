@@ -1,9 +1,6 @@
 .project {
-  
-  @media screen and (max-width: 1199px) {
-    padding: 60px 0;
-  }
-
+  padding: 60px 0;
+ 
   @media screen and (min-width: 1200px) {
     padding: 94px 0;
   }
@@ -23,6 +20,7 @@
   @media screen and (min-width: 768px) {
     display: flex;
     flex-wrap: wrap;
+    align-items: baseline;
     margin-top: calc(-1 * #{$card-set-gap});
     margin-left: calc(-1 * #{$card-set-gap});
   } 
