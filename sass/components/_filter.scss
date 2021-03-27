@@ -25,14 +25,21 @@
 }
   
 .filters-item {
-  display: inline;
+  display: inline-flex;
+
+  @media screen and (max-width: 767px) {
+    margin-bottom: 15px;
+  }
 
   @media screen and (min-width: 768px) and (max-width: 1199) {
     display: flex;
     align-items: center;
+    margin-bottom: 0;
   }
+
   @media screen and (min-width: 1200) {
     display: inline-block;
+    margin-bottom: 0;
   }
 }
 
@@ -40,8 +47,6 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
-  
-  margin-bottom: 15px;
   text-align: center; 
   letter-spacing: 0.03em;
   background-color: $background-light;
